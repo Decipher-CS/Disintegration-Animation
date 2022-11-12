@@ -3,11 +3,9 @@
     font-size: 16px;
     line-height: 24px;
     font-weight: 400;
-
     color-scheme: light dark;
     color: rgba(255, 255, 255, 0.87);
     background-color: #242424;
-
     font-synthesis: none;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
@@ -20,6 +18,7 @@ a {
     color: #646cff;
     text-decoration: inherit;
 }
+
 a:hover {
     color: #535bf2;
 }
@@ -31,6 +30,23 @@ body {
     place-content: center;
     min-width: 320px;
     min-height: 100vh;
+
+    background-image: linear-gradient(-45deg, #ee7752,#e73c7e,#23a6d5,#23d5ab);
+    background-size: 400% 400%;
+
+    animation: bg-transition 10s ease infinite;
+}
+
+@keyframes bg-transition {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }
 
 h1 {
@@ -50,9 +66,11 @@ h1 {
     padding: 1.5em;
     will-change: filter;
 }
+
 .logo:hover {
     filter: drop-shadow(0 0 2em #646cffaa);
 }
+
 .logo.vanilla:hover {
     filter: drop-shadow(0 0 2em #3178c6aa);
 }
@@ -76,9 +94,11 @@ button {
     cursor: pointer;
     transition: border-color 0.25s;
 }
+
 button:hover {
     border-color: #646cff;
 }
+
 button:focus,
 button:focus-visible {
     outline: 4px auto -webkit-focus-ring-color;
@@ -89,17 +109,24 @@ button:focus-visible {
         color: #213547;
         background-color: #ffffff;
     }
+
     a:hover {
         color: #747bff;
     }
+
     button {
         background-color: #f9f9f9;
     }
 }
-
 #game_board {
-    border: solid cyan 1px;
-    border-radius: 10px;
-    min-height: 80vh;
-    aspect-ratio: 3/4;
+    /* border-image: linear-gradient(95deg, red, blue); */
+    border-image: linear-gradient(45deg, #ee7752,#e73c7e,#23a6d5,#23d5ab);
+    border-image-slice: 1;
+    border-style: solid;
+    border-width: 5px;
+}
+
+#canvas_image {
+    display: none;
+    z-index: 99;
 }
