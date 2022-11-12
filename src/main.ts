@@ -98,7 +98,7 @@ window.addEventListener('load', function () {
             this.imageX = this.centerX - this.image.width * 0.5
             this.imageY = this.centerY - this.image.height * 0.5
             this.particleArray = []
-            this.gap = 5
+            this.gap = 3
             this.mouse = {
                 radius: 3000,
                 x: 0,
