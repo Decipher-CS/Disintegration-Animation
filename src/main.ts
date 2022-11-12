@@ -68,7 +68,7 @@ window.addEventListener('load', function () {
         distort() {
             this.particleLocationX = Math.random() * this.effect.width
             this.particleLocationY = Math.random() * this.effect.height
-            this.ease = 0.1
+            this.ease = 0.9
         }
     }
 
@@ -98,7 +98,7 @@ window.addEventListener('load', function () {
             this.imageX = this.centerX - this.image.width * 0.5
             this.imageY = this.centerY - this.image.height * 0.5
             this.particleArray = []
-            this.gap = 3
+            this.gap = 5
             this.mouse = {
                 radius: 3000,
                 x: 0,
