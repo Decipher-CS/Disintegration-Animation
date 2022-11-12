@@ -24,10 +24,12 @@ Just hover over the image
 ## Tooling
 
 - Vanilla JavaScript
-- Netlify
+- [Live Website Deployed On Netlify](https://app.netlify.com/sites/harmonious-biscochitos-5d3231)
+- [GitLab](https://gitlab.com/Decipher-CS/disintegration-animation)
 - Vite
 
 
 ## Credits
 
 -   [Franks laboratory](https://www.youtube.com/watch?v=vAJEHf92tV0)
+-   [Repo Logo]()
