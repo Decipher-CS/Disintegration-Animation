@@ -6,7 +6,7 @@
   <br>
 </h1>
 
-<h4 align="center"> A simple disintegration animation on a PNG, using canvas</h4>
+<h4 align="center"> Testing the waters with a simple disintegration animation on a PNG, using canvas HTML tag.</h4>
 
 
 <p align="center">
@@ -15,21 +15,18 @@
   <a href="#credits">Credits</a> 
 </p>
 
-![screenshot]()
-
 ## How To Use
 
 Just hover over the image
 
 ## Tooling
 
-- Vanilla JavaScript
-- [Live Website Deployed On Netlify](https://app.netlify.com/sites/harmonious-biscochitos-5d3231)
+- [Vanilla JavaScript](https://www.ecma-international.org/technical-committees/tc49/)
+- [Live Website Deployed On Netlify](https://harmonious-biscochitos-5d3231.netlify.app/)
 - [GitLab](https://gitlab.com/Decipher-CS/disintegration-animation)
-- Vite
+- [Vite](https://vitejs.dev/)
 
 
 ## Credits
 
 -   [Franks laboratory](https://www.youtube.com/watch?v=vAJEHf92tV0)
--   [Repo Logo]()
