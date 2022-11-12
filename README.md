@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <a href=""><img src="" alt="" width="200"></a>
+  <img src="./public/dff.gif" alt="" width="50%">
   <br>
   DISINTEGRATION
   <br>
@@ -10,24 +10,24 @@
 
 
 <p align="center">
-  <a href="#">foo</a> •
-  <a href=""#></a> •
-  <a href=""></a> •
-  <a href=""></a> •
-  <a href=""></a> •
-  <a href=""></a>
+  <a href="#how-to-use">How To Use</a> •
+  <a href="#tooling">Tooling</a> •
+  <a href="#credits">Credits</a> 
 </p>
 
 ![screenshot]()
 
 ## How To Use
 
+Just hover over the image
 
-## Download
+## Tooling
+
+- Vanilla JavaScript
+- Netlify
+- Vite
 
 
 ## Credits
 
-This software uses the following open source packages:
-
--   []()
+-   [Franks laboratory](https://www.youtube.com/watch?v=vAJEHf92tV0)
