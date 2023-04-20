@@ -6,7 +6,7 @@
   <br>
 </h1>
 
-<h4 align="center"> Testing the waters with a simple disintegration animation on a PNG, using canvas HTML tag.</h4>
+<h4 align="center"> Testing the waters with a simple disintegration animation on a PNG, using canvas HTML tag. Try it live on [netlify](https://harmonious-biscochitos-5d3231.netlify.app/)</h4>
 
 
 <p align="center">
